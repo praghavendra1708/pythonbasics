@@ -1,0 +1,3 @@
+INFO:root:This is an info msg
+INFO:root:This is an info msg
+2019-08-18 01:24:34,470  This is an info msg
