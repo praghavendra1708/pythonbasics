@@ -12,7 +12,7 @@ print(type(inputJson))
 
 myString = """ 
 {
-"name":"Unknow",
+"name":"Unknown",
 "type":null,
 "isValid": false
 }
@@ -20,3 +20,14 @@ myString = """
 
 myStrJson = json.loads(myString)
 print("String json:", myStrJson)
+
+
+strJson = json.dumps(inputJson, ensure_ascii=False)
+print('Json string is:', strJson)
+
+print("type of strJson is:", type(strJson))
+
+outputFile = './outputjsonfile.json'
+outiofile = open(outputFile, mode='w')
+json.dump(inputJson, outiofile, ensure_ascii=False)
+outiofile.close()
