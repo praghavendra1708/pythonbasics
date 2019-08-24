@@ -1,3 +1,20 @@
-INFO:root:This is an info msg
-INFO:root:This is an info msg
-2019-08-18 01:24:34,470  This is an info msg
+2019-08-23 09:57:32,215  start time: 1566534452.215504
+2019-08-23 09:57:35,612  time taken
+2019-08-23 09:58:51,440  start time: 1566534531.440484
+2019-08-23 09:58:51,550  Closing the file /Users/raghavendrareddy/Downloads/Yellowstone.2018.S02E09.720p.WEB.x265-MiNX[TGx]/Yellowstone.2018.S02E09.720p.WEB.x265-MiNX.mkv
+2019-08-23 09:58:51,550  time taken
+2019-08-23 09:59:54,200  start time: 1566534594.200756
+2019-08-23 09:59:56,719  Closing the file /Users/raghavendrareddy/Downloads/Yellowstone.2018.S02E09.720p.WEB.x265-MiNX[TGx]/Yellowstone.2018.S02E09.720p.WEB.x265-MiNX.mkv
+2019-08-23 09:59:56,719  time taken
+2019-08-23 10:02:00,197  start time: 1566534720.197293
+2019-08-23 10:02:03,602  Closing the file /Users/raghavendrareddy/Downloads/Yellowstone.2018.S02E09.720p.WEB.x265-MiNX[TGx]/Yellowstone.2018.S02E09.720p.WEB.x265-MiNX.mkv
+2019-08-23 10:02:03,603  time taken 3.4058899879455566
+2019-08-23 10:02:31,551  start time: 1566534751.551905
+2019-08-23 10:02:31,703  Closing the file /Users/raghavendrareddy/Downloads/Yellowstone.2018.S02E09.720p.WEB.x265-MiNX[TGx]/Yellowstone.2018.S02E09.720p.WEB.x265-MiNX.mkv
+2019-08-23 10:02:31,703  time taken 0.15137100219726562
+2019-08-23 10:02:59,588  start time: 1566534779.588702
+2019-08-23 10:02:59,702  Closing the file /Users/raghavendrareddy/Downloads/Yellowstone.2018.S02E09.720p.WEB.x265-MiNX[TGx]/Yellowstone.2018.S02E09.720p.WEB.x265-MiNX.mkv
+2019-08-23 10:02:59,702  time taken 0.11393308639526367
+2019-08-23 10:03:30,244  start time: 1566534810.244108
+2019-08-23 10:03:30,371  Closing the file /Users/raghavendrareddy/Downloads/Yellowstone.2018.S02E09.720p.WEB.x265-MiNX[TGx]/Yellowstone.2018.S02E09.720p.WEB.x265-MiNX.mkv
+2019-08-23 10:03:30,372  time taken 0.12793707847595215
