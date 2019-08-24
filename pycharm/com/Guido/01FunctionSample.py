@@ -1,20 +1,3 @@
-def fun() :
-    global var
-    print(var)
-    var = 'set local'
-
-var = 'set global'
-fun()
-print(var)
-
-i = 5
-def f(arg=i):
-    print(arg)
-
-f()
-f(1)
-
-
 # different ways of defining function
 def febnocci(n):
     """ Display the fist n febonacci numbers """
@@ -74,3 +57,22 @@ def f1(a, lt=None):
 
 print(f"f1 vaule {f1(1)}")
 print(f'f1 value {f1(2)}')
+
+
+# converting
+def bookshop(kind, *arguments, **keywords):
+    print(f"is there any {kind} of book")
+    print(f'No we dont have {kind} of book')
+
+    for args in arguments:
+        print(f'args {args}')
+
+    for key in keywords:
+        print(key + ' ' + keywords[key])
+
+
+bookshop('Life of pie', 'fantasy', 'pylospfical', Author='Unknown')
+
+arg1 = ('fantasy', 'pylospfical')
+arg2 = {'Author':'Unknown'}
+bookshop('Life of pie', arg1, arg2)
