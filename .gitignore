@@ -1,4 +1,4 @@
 pycharm/venv/*
-pycharm/myenv1/*
+pycharm/myenv/*
 .*
 !/.gitignore
