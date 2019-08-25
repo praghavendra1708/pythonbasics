@@ -55,6 +55,7 @@ def f1(a, lt=None):
     lt.append(a)
     return lt
 
+
 print(f"f1 vaule {f1(1)}")
 print(f'f1 value {f1(2)}')
 
@@ -62,7 +63,7 @@ print(f'f1 value {f1(2)}')
 # converting
 def bookshop(kind, *arguments, **keywords):
     print(f"is there any {kind} of book")
-    print(f'No we dont have {kind} of book')
+    print(f'No we don`t have {kind} of book')
 
     for args in arguments:
         print(f'args {args}')
@@ -71,8 +72,15 @@ def bookshop(kind, *arguments, **keywords):
         print(key + ' ' + keywords[key])
 
 
-bookshop('Life of pie', 'fantasy', 'pylospfical', Author='Unknown')
+bookshop('Life of pie', 'fantasy', 'psychological', Author='Unknown')
 
-arg1 = ('fantasy', 'pylospfical')
+arg1 = ('fantasy', 'romance')
 arg2 = {'Author':'Unknown'}
 bookshop('Life of pie', arg1, arg2)
+
+
+# Arbitrary arguments
+def concat(*args, sep='/'):
+    return sep.join(args)
+
+print( concat('mercury', 'venus', 'earth') )
