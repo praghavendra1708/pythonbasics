@@ -86,7 +86,3 @@ def concat(*args, sep='/'):
 print( concat('mercury', 'venus', 'earth') )
 
 
-# Adding comment from windows
-# Adding comment form mac desktop
-# Adding comment from mac laptop
-# Adding comment from mac laptop 3
