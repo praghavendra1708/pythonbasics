@@ -23,3 +23,5 @@ for x in range(len(matrix)):
     forTransMatrix.append(row)
 
 print(*forTransMatrix, sep='\n')
+
+print("Transpose Matrix:", *zip(*matrix) , sep='\n')
