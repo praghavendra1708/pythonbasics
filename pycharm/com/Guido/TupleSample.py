@@ -26,5 +26,5 @@ print(f'x={x}, y={y}, z={z}')
 mydict = {"India": "Delhi", "ap": "Unknown", "telangana": "Hyderabad"}
 
 #creating dictinoary using lists
-mydict_lt = dict( [("India", "Delhi"),("AP", "Unknown"),("Telangana", "Hyderabad")] )
-print( *mydict_lt.items(), sep='\n')
+mydict_lt = dict([("India", "Delhi"), ("AP", "Unknown"), ("Telangana", "Hyderabad")])
+print(*mydict_lt.items(), sep='\n')
