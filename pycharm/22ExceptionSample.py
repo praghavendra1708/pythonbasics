@@ -25,4 +25,3 @@ finally:
     log.info('time taken {}'.format(endTime - startTime))
 
 
-len
