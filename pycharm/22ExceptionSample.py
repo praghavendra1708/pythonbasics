@@ -14,6 +14,8 @@ try:
     log.info('start time: {}'.format(startTime))
     fileio = open(file_to_read, mode='br')
     fileio.read()
+except (RuntimeError, TypeError, NameError):
+    pass
 except FileNotFoundError:
     log.error('Input file not found {}'.format(file_to_read))
     raise
