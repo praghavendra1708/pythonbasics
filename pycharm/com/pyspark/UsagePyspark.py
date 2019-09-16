@@ -1,9 +1,10 @@
-# Union of dataframes with different schema
+"""" Union of dataframes with different schema  """
 
 import rlcompleter, readline
+from pyspark.sql import HiveContext
+
 readline.parse_and_bind("tab: complete")
 
-from pyspark.sql import HiveContext
 hc = HiveContext(spark.sparkContext)
 
 cj_query = """select *
